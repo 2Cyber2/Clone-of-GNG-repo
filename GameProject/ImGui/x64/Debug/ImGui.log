@@ -1,0 +1,7 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  Generating Code...
+  ImGui.vcxproj -> C:\Users\dmitr\source\repos\2Cyber2\24F_GG2\GameProject\x64\Debug\ImGui.lib

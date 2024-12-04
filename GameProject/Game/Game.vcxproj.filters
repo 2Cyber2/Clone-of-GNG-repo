@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{752151e8-9865-46ec-8a11-12eb10f71741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{09735106-139b-44bc-9481-5ec5f8e5cfe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{b51fb7ea-b160-4f2e-aa8b-76f26303db32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\FragmentShaders">
+      <UniqueIdentifier>{ece30d38-19f7-4225-b3a4-e98b125fc17a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI">
+      <UniqueIdentifier>{8113ce7c-f378-450c-aa7e-e6e41df8188a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TrackingCamera">
+      <UniqueIdentifier>{9e61c915-a53c-4a77-b4cb-0a8412b9639b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\AnimatedObject">
+      <UniqueIdentifier>{731a56be-0b57-4303-a50a-22bc86c437ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Player">
+      <UniqueIdentifier>{15604b61-fd3b-4148-b0e8-64246a5b780a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Enemy">
+      <UniqueIdentifier>{3064241d-8f26-4809-8ef7-45e2cc26b3ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\JsonFiles and Spritesheets">
+      <UniqueIdentifier>{e0190dee-44de-4ec6-94fa-50498c86faff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\JsonFiles and Spritesheets\Bomberman">
+      <UniqueIdentifier>{01176e98-fd0f-49ab-9e3f-3c87d5f3f5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\JsonFiles and Spritesheets\Sokoban">
+      <UniqueIdentifier>{9cbd43cd-b2bb-41f0-961e-df0749ac3330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tilemap">
+      <UniqueIdentifier>{f970a00c-e82c-454c-b541-6dfb29ed6da0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\ImGuiManager.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TrackingCamera\TrackingCamera.cpp">
+      <Filter>Source\TrackingCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimatedObject\AnimatedObject.cpp">
+      <Filter>Source\AnimatedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\Player.cpp">
+      <Filter>Source\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\Enemy.cpp">
+      <Filter>Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tilemap\Tilemap.cpp">
+      <Filter>Source\Tilemap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Game.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\ImGuiManager.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TrackingCamera\TrackingCamera.h">
+      <Filter>Source\TrackingCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimatedObject\AnimatedObject.h">
+      <Filter>Source\AnimatedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\Player.h">
+      <Filter>Source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\Enemy.h">
+      <Filter>Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tilemap\Tilemap.h">
+      <Filter>Source\Tilemap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Data\Shaders\basic.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\basic.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\FragmentShaders\2DHexSmooth.frag">
+      <Filter>Data\FragmentShaders</Filter>
+    </None>
+    <None Include="..\Data\FragmentShaders\Angels.frag">
+      <Filter>Data\FragmentShaders</Filter>
+    </None>
+    <None Include="..\Data\FragmentShaders\BokehBlur.frag">
+      <Filter>Data\FragmentShaders</Filter>
+    </None>
+    <None Include="..\Data\FragmentShaders\City.frag">
+      <Filter>Data\FragmentShaders</Filter>
+    </None>
+    <None Include="..\Data\FragmentShaders\CubesAndSpheres.frag">
+      <Filter>Data\FragmentShaders</Filter>
+    </None>
+    <None Include="..\Data\FragmentShaders\FluxCore.frag">
+      <Filter>Data\FragmentShaders</Filter>
+    </None>
+    <None Include="..\Data\FragmentShaders\MengerJourney.frag">
+      <Filter>Data\FragmentShaders</Filter>
+    </None>
+    <None Include="..\Data\FragmentShaders\MetaHexaBalls.frag">
+      <Filter>Data\FragmentShaders</Filter>
+    </None>
+    <None Include="..\Data\FragmentShaders\PyroclasticExplosion.frag">
+      <Filter>Data\FragmentShaders</Filter>
+    </None>
+    <None Include="..\Data\FragmentShaders\RollingHills.frag">
+      <Filter>Data\FragmentShaders</Filter>
+    </None>
+    <None Include="..\Data\FragmentShaders\TheInversionMachine.frag">
+      <Filter>Data\FragmentShaders</Filter>
+    </None>
+    <None Include="..\Data\FragmentShaders\TheRoadToHell.frag">
+      <Filter>Data\FragmentShaders</Filter>
+    </None>
+    <None Include="..\Data\FragmentShaders\TruchetTentacles.frag">
+      <Filter>Data\FragmentShaders</Filter>
+    </None>
+    <None Include="..\Data\FragmentShaders\WormsAntialiasing.frag">
+      <Filter>Data\FragmentShaders</Filter>
+    </None>
+    <None Include="..\Data\example.json">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="..\Data\Zelda.json">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="..\Data\SpriteToolAndImages\Bomberman.json">
+      <Filter>Data\JsonFiles and Spritesheets\Bomberman</Filter>
+    </None>
+    <None Include="..\Data\SpriteToolAndImages\Sokoban.json">
+      <Filter>Data\JsonFiles and Spritesheets\Sokoban</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Data\SpriteToolAndImages\Bomberman.png">
+      <Filter>Data\JsonFiles and Spritesheets\Bomberman</Filter>
+    </Image>
+    <Image Include="..\Data\SpriteToolAndImages\Sokoban.png">
+      <Filter>Data\JsonFiles and Spritesheets\Sokoban</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

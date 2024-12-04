@@ -1,0 +1,98 @@
+{
+	"spritetool":	3,
+	"filename":	"Bomberman.png",
+	"size":	[256, 128],
+	"sprites":	[{
+			"name":	"BM_WalkDown1",
+			"pos":	[0, 96],
+			"size":	[16, 32]
+		}, {
+			"name":	"BM_WalkDown2",
+			"pos":	[0, 63],
+			"size":	[16, 32]
+		}, {
+			"name":	"BM_WalkDown3",
+			"pos":	[17, 96],
+			"size":	[16, 32]
+		}, {
+			"name":	"BM_WalkLeft1",
+			"pos":	[0, 30],
+			"size":	[16, 32]
+		}, {
+			"name":	"BM_WalkLeft2",
+			"pos":	[17, 63],
+			"size":	[16, 32]
+		}, {
+			"name":	"BM_WalkLeft3",
+			"pos":	[34, 96],
+			"size":	[16, 32]
+		}, {
+			"name":	"BM_WalkRight1",
+			"pos":	[17, 30],
+			"size":	[16, 32]
+		}, {
+			"name":	"BM_WalkRight2",
+			"pos":	[34, 63],
+			"size":	[16, 32]
+		}, {
+			"name":	"BM_WalkRight3",
+			"pos":	[51, 96],
+			"size":	[16, 32]
+		}, {
+			"name":	"BM_WalkUp1",
+			"pos":	[34, 30],
+			"size":	[16, 32]
+		}, {
+			"name":	"BM_WalkUp2",
+			"pos":	[51, 63],
+			"size":	[16, 32]
+		}, {
+			"name":	"BM_WalkUp3",
+			"pos":	[68, 96],
+			"size":	[16, 32]
+		}, {
+			"name":	"Box",
+			"pos":	[85, 96],
+			"size":	[32, 32]
+		}, {
+			"name":	"Floor",
+			"pos":	[68, 63],
+			"size":	[32, 32]
+		}, {
+			"name":	"Wall-E",
+			"pos":	[51, 30],
+			"size":	[32, 32]
+		}, {
+			"name":	"Wall-N",
+			"pos":	[118, 96],
+			"size":	[32, 32]
+		}, {
+			"name":	"Wall-NE",
+			"pos":	[101, 63],
+			"size":	[32, 32]
+		}, {
+			"name":	"Wall-NW",
+			"pos":	[84, 30],
+			"size":	[32, 32]
+		}, {
+			"name":	"Wall-S",
+			"pos":	[151, 96],
+			"size":	[32, 32]
+		}, {
+			"name":	"Wall-SE",
+			"pos":	[134, 63],
+			"size":	[32, 32]
+		}, {
+			"name":	"Wall-SW",
+			"pos":	[117, 30],
+			"size":	[32, 32]
+		}, {
+			"name":	"Wall-W",
+			"pos":	[184, 96],
+			"size":	[32, 32]
+		}, {
+			"name":	"Wall",
+			"pos":	[167, 63],
+			"size":	[32, 32]
+		}]
+}

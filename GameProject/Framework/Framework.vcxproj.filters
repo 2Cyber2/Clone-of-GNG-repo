@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4c3b7075-b9c1-4f57-9c58-e2aac128be58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GL">
+      <UniqueIdentifier>{d4bb819d-2c10-4b22-a84b-7d2ad0261f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{10efe068-302c-43ed-a43d-e9cd8420408b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Shaders">
+      <UniqueIdentifier>{2ff5c101-511a-49d4-b46b-a3e1a59aea36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utility">
+      <UniqueIdentifier>{0882832d-2fc0-4bdc-bf94-4a7c143f4012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh">
+      <UniqueIdentifier>{d879da01-8fa5-4a32-b6de-74c1efb64147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Vector">
+      <UniqueIdentifier>{ccdf5432-f2d5-4f14-a8fb-30a663b4f9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Libraries">
+      <UniqueIdentifier>{5090aabb-74ee-49fa-9861-b6b4cdf01cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Texture">
+      <UniqueIdentifier>{c90e35eb-e87e-4465-946e-a91e600860e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Camera">
+      <UniqueIdentifier>{258ad4d5-e191-463d-ac81-0aba6b0a12a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameObject">
+      <UniqueIdentifier>{68a2ca65-9d45-4a20-9036-1899beacf925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Animation">
+      <UniqueIdentifier>{44898561-4a6d-4c61-b32c-55cefdd9887a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\AnimationCollection">
+      <UniqueIdentifier>{70e5eda0-6f29-4c4c-82de-eb3cf154961f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\AnimationPlayer">
+      <UniqueIdentifier>{11cc1024-fcf6-436d-8ac2-26fea993748e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SpriteSheet">
+      <UniqueIdentifier>{53c03856-ec24-498f-a755-fe50b674a441}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Framework.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\glext.h">
+      <Filter>Source\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\GLExtensions.h">
+      <Filter>Source\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\MyGLContext.h">
+      <Filter>Source\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\wglext.h">
+      <Filter>Source\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\WGLExtensions.h">
+      <Filter>Source\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\CoreHeaders.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FWCore.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FWWindows.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shaders\ShaderProgram.h">
+      <Filter>Source\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Utility.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh\Mesh.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vector\Vector.h">
+      <Filter>Source\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\GameCore.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\Texture.h">
+      <Filter>Source\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\stb_image.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\json.hpp">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\Camera.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject\GameObject.h">
+      <Filter>Source\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Animation\Animation.h">
+      <Filter>Source\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationCollection\AnimationCollection.h">
+      <Filter>Source\AnimationCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationPlayer\AnimationPlayer.h">
+      <Filter>Source\AnimationPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteSheet\SpriteSheet.h">
+      <Filter>Source\SpriteSheet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\GL\GLExtensions.cpp">
+      <Filter>Source\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GL\MyGLContext.cpp">
+      <Filter>Source\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GL\WGLExtensions.cpp">
+      <Filter>Source\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FWCore.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FWWindows.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\GameCore.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shaders\ShaderProgram.cpp">
+      <Filter>Source\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Utility.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh\Mesh.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vector\Vector.cpp">
+      <Filter>Source\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture\Texture.cpp">
+      <Filter>Source\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\Camera.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObject.cpp">
+      <Filter>Source\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Animation\Animation.cpp">
+      <Filter>Source\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationCollection\AnimationCollection.cpp">
+      <Filter>Source\AnimationCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationPlayer\AnimationPlayer.cpp">
+      <Filter>Source\AnimationPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteSheet\SpriteSheet.cpp">
+      <Filter>Source\SpriteSheet</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

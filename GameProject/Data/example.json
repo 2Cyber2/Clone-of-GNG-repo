@@ -1,0 +1,20 @@
+{
+  "SceneName": "Scene1",
+  "GameObjects": [
+    {
+      "ID": 1,
+      "Name": "Player",
+      "Size": 1
+    },
+    {
+      "ID": 7,
+      "Name": "Floor",
+      "Size": 5
+    },
+    {
+      "ID": 8,
+      "Name": "Box",
+      "Size": 2
+    }
+  ]
+}
